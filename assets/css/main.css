@@ -92,12 +92,14 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #707070;
-		font-family: Georgia, "Times New Roman", Times, "serif";
+		font-family: Georgia, "Noto Sans Japanese", Times, "serif";
+		
 		font-size: 15pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
 		line-height: 1.75em;
 	}
+
 
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -1972,6 +1974,46 @@ text-indent:-1em
 						text-decoration: none;
 					}
 
+#header .language_sp
+	{
+		
+		color:#FFFFFF;
+		font-family: 'Muli', sans-serif;
+		font-size: 0.8em;
+		
+		}
+
+#header .language_pc
+	{
+		
+		color:#FFFFFF;
+		font-family: 'Muli', sans-serif;
+		
+		}
+
+#header .language_pc a
+	{
+	display: inline-block;
+	transition: .2s;
+	transform: scale(1);
+		
+		}
+
+#header .language_pc a:hover {
+	transform: scale(1.05);
+}
+		
+
+#header .mark1
+{
+	background: linear-gradient(transparent 0%, #000000 0%);
+		padding: 0.2em 1.5em;
+	
+
+}
+
+
+
 					
 
 
@@ -2069,7 +2111,7 @@ text-indent:-1em
 .cp_offcm01 .cp_menu li {
 	list-style: none;
 }
-.cp_offcm01 .cp_menu li a {
+.cp_offcm01 .cp_menu .menu2 {
 	display: block;
 	padding: 1em;
 	text-decoration: none;
@@ -2078,6 +2120,7 @@ text-indent:-1em
 	text-align: left;
     
 }
+
 
 .cp_offcm01 #cp_toggle01 {
 	position: absolute;
