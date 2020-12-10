@@ -1,13 +1,3 @@
-<Files ~ "\.(htaccess|htpasswd)$">
-
-deny from all
-
-</Files>
-
- 
-
 RewriteEngine on
-
 RewriteCond %{THE_REQUEST} ^.*/index.html
-
-RewriteRule ^(.*)index.html$ https://www.d3growth.com/$1 [R=301,L]
+RewriteRule ^(.*)index.html$ http://www.d3growth.com/$1 [R=301,L]
