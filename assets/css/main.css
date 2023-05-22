@@ -2383,7 +2383,7 @@ text-indent:-1em
 		/* Section/Article */
 
 			header br {
-				display: none;
+				display: inline;
 			}
 
 			header.major {
@@ -2407,7 +2407,7 @@ text-indent:-1em
 			}
 
 				.wrapper.special br {
-					display: none;
+					display: inline;
 				}
 
 				.wrapper.style1 {
@@ -2585,7 +2585,7 @@ text-indent:-1em
 			}
 
 				.wrapper.special br {
-					display: none;
+					display: inline;
 				}
 
 				.wrapper.style1 {
